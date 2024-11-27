@@ -1,0 +1,38 @@
+/* Custom Carousel Styles */
+#carousal {
+    position: relative;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+  
+  .carousel .form-control {
+    margin-right: 10px;
+  }
+  
+  .carousel .btn {
+    background-color: #ffc107; /* Warning color */
+    border-color: #ffc107; /* Warning color */
+    color: white;
+  }
+  
+  .carousel .btn:hover {
+    background-color: #e0a800; /* Darker warning color on hover */
+    border-color: #e0a800; /* Darker warning color on hover */
+  }
+  
+  .carousel .d-block {
+    filter: brightness(30%);
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+    border-radius: 50%; /* Make it round */
+  }
+  
